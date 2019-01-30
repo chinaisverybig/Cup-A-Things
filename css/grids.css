@@ -127,7 +127,6 @@
 
 .imageSection .block3 {
   flex: 5;
-  margin-bottom: 1rem;
 }
 
 /*Interactive Elements Section*/
@@ -504,6 +503,267 @@
   padding: 2rem 5rem 2rem 2rem;
 }
 
+/*for tablet*/
+@media only screen and (max-width:60rem) {
+  #phone {
+    display: none;
+  }
+
+  #intro .block1 {
+    flex: 1;
+  }
+
+  #intro .block2 {
+    flex: 2;
+  }
+
+  #intro .block3 {
+    flex: 1;
+  }
+
+  /*About Section*/
+  #aboutSection .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Persona Section*/
+  #personaSection .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Color Section*/
+  #colorSection .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Typography Section*/
+  #typographySection .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Potential Images Section*/
+  .imageSection .block1 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Interactive Elements Section*/
+  #interactiveElementsSection .block1 {
+    flex: 1;
+  }
+
+  #interactiveElementsSection .block2 {
+    flex: 2;
+  }
+
+  #interactiveElementsSection .block3 {
+    flex: 1;
+  }
+
+  /*In-text Link Section*/
+  #link .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Navigation Button Section*/
+  #navButton .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Submit/Reset Button Section*/
+  #submitButton .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Text input Section*/
+  #textInput .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Radio Button Section*/
+  #radioButton .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Image as a Link Section*/
+  #imageLink .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*text_elements Section*/
+  #textElementsSection .block1 {
+    flex: 2;
+  }
+
+  #textElementsSection .block2 {
+    flex: 8;
+  }
+
+  #textElementsSection .block3 {
+    flex: 2;
+  }
+
+  /*Heading Section*/
+  #heading .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Paragraph Section*/
+  #para .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Numbered List Section*/
+  #numberedList .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Menu bar section*/
+  #navBar .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Product Listing Section*/
+  #productList .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Payment section*/
+  #payment .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Cart Section*/
+  #cart .block2 {
+    flex: 0;
+    display: none;
+  }
+
+  /*Product Page*/
+  #productIntro .block1 {
+    flex: 2;
+  }
+
+  #productIntro .block2 {
+    flex: 8;
+  }
+
+  #productIntro .block3 {
+    flex: 2;
+  }
+
+  .product_listing .block1 {
+    flex: 1;
+  }
+
+  .product_listing .block2 {
+    flex: 1;
+  }
+
+  .product_listing .block3 {
+    flex: 3;
+  }
+
+  .product_listing .block4 {
+    flex: 3;
+  }
+
+  .product_listing .block5 {
+    flex: 3;
+  }
+
+  /*Checkout Cart Page*/
+  #checkoutIntro .block1 {
+    flex: 2;
+  }
+
+  #checkoutIntro .block2 {
+    flex: 8;
+  }
+
+  #checkoutIntro .block3 {
+    flex: 2;
+  }
+
+  .checkoutItem .block1 {
+    flex: 3;
+  }
+
+  .checkoutItem .block2 {
+    flex: 3;
+  }
+
+  .checkoutItem .block3 {
+    flex: 3;
+  }
+
+  .checkoutItem .block4 {
+    flex: 1;
+  }
+
+  .checkoutItem .block5 {
+    flex: 1;
+  }
+
+  #checkoutSummary .block1 {
+    flex: 4;
+  }
+
+  #checkoutSummary .block2 {
+    flex: 5;
+  }
+
+  #checkoutSummary .block3 {
+    flex: 1;
+  }
+
+  #checkoutSummary .block4 {
+    flex: 1;
+  }
+
+  /*Payment Page*/
+  #paymentIntro .block1 {
+    flex: 2;
+  }
+
+  #paymentIntro .block2 {
+    flex: 8;
+  }
+
+  #paymentIntro .block3 {
+    flex: 2;
+  }
+
+  #paymentInfo .block1 {
+    flex: 1;
+  }
+
+  #paymentInfo .block2 {
+    flex: 1;
+  }
+
+  #paymentInfo .block3 {
+    flex: 10;
+    padding: 2rem 5rem 2rem 2rem;
+  }
+}
+
 /*for phone*/
 @media only screen and (max-width:32rem) {
 
@@ -603,10 +863,6 @@
     height: 35rem;
   }
 
-  .title-section {
-    height: 20rem;
-  }
-
   #product-section {
     height: 50rem;
   }
@@ -650,10 +906,6 @@
 
   .checkout-img-noodle {
     margin-left: 0;
-  }
-
-  .cooked-noodle-img {
-    margin-top: -6rem;
   }
 
   .item {
@@ -1078,267 +1330,6 @@
     padding-left: 2rem;
     padding-right: 5rem;
     order: 2;
-  }
-}
-
-/*for tablet*/
-@media only screen and (max-width:60rem) {
-  #phone {
-    display: none;
-  }
-
-  #intro .block1 {
-    flex: 1;
-  }
-
-  #intro .block2 {
-    flex: 2;
-  }
-
-  #intro .block3 {
-    flex: 1;
-  }
-
-  /*About Section*/
-  #aboutSection .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Persona Section*/
-  #personaSection .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Color Section*/
-  #colorSection .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Typography Section*/
-  #typographySection .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Potential Images Section*/
-  .imageSection .block1 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Interactive Elements Section*/
-  #interactiveElementsSection .block1 {
-    flex: 1;
-  }
-
-  #interactiveElementsSection .block2 {
-    flex: 2;
-  }
-
-  #interactiveElementsSection .block3 {
-    flex: 1;
-  }
-
-  /*In-text Link Section*/
-  #link .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Navigation Button Section*/
-  #navButton .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Submit/Reset Button Section*/
-  #submitButton .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Text input Section*/
-  #textInput .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Radio Button Section*/
-  #radioButton .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Image as a Link Section*/
-  #imageLink .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*text_elements Section*/
-  #textElementsSection .block1 {
-    flex: 2;
-  }
-
-  #textElementsSection .block2 {
-    flex: 8;
-  }
-
-  #textElementsSection .block3 {
-    flex: 2;
-  }
-
-  /*Heading Section*/
-  #heading .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Paragraph Section*/
-  #para .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Numbered List Section*/
-  #numberedList .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Menu bar section*/
-  #navBar .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Product Listing Section*/
-  #productList .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Payment section*/
-  #payment .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Cart Section*/
-  #cart .block2 {
-    flex: 0;
-    display: none;
-  }
-
-  /*Product Page*/
-  #productIntro .block1 {
-    flex: 2;
-  }
-
-  #productIntro .block2 {
-    flex: 8;
-  }
-
-  #productIntro .block3 {
-    flex: 2;
-  }
-
-  .product_listing .block1 {
-    flex: 1;
-  }
-
-  .product_listing .block2 {
-    flex: 1;
-  }
-
-  .product_listing .block3 {
-    flex: 3;
-  }
-
-  .product_listing .block4 {
-    flex: 3;
-  }
-
-  .product_listing .block5 {
-    flex: 3;
-  }
-
-  /*Checkout Cart Page*/
-  #checkoutIntro .block1 {
-    flex: 2;
-  }
-
-  #checkoutIntro .block2 {
-    flex: 8;
-  }
-
-  #checkoutIntro .block3 {
-    flex: 2;
-  }
-
-  .checkoutItem .block1 {
-    flex: 3;
-  }
-
-  .checkoutItem .block2 {
-    flex: 3;
-  }
-
-  .checkoutItem .block3 {
-    flex: 3;
-  }
-
-  .checkoutItem .block4 {
-    flex: 1;
-  }
-
-  .checkoutItem .block5 {
-    flex: 1;
-  }
-
-  #checkoutSummary .block1 {
-    flex: 4;
-  }
-
-  #checkoutSummary .block2 {
-    flex: 5;
-  }
-
-  #checkoutSummary .block3 {
-    flex: 1;
-  }
-
-  #checkoutSummary .block4 {
-    flex: 1;
-  }
-
-  /*Payment Page*/
-  #paymentIntro .block1 {
-    flex: 2;
-  }
-
-  #paymentIntro .block2 {
-    flex: 8;
-  }
-
-  #paymentIntro .block3 {
-    flex: 2;
-  }
-
-  #paymentInfo .block1 {
-    flex: 1;
-  }
-
-  #paymentInfo .block2 {
-    flex: 1;
-  }
-
-  #paymentInfo .block3 {
-    flex: 10;
-    padding: 2rem 5rem 2rem 2rem;
   }
 }
 }
