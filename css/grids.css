@@ -59,23 +59,28 @@
   flex: 6;
   padding-left: 5rem;
   padding-right: 2rem;
+  order: 2;
 }
 
 #aboutSection .block2 {
   flex: 1;
+  order: 1;
 }
 
 #aboutSection .block3 {
   flex: 5;
+  order: 0;
 }
 
 /*Persona Section*/
 #personaSection .block1 {
   flex: 5;
+  order: 0;
 }
 
 #personaSection .block2 {
   flex: 1;
+  order: 1;
 }
 
 #personaSection .block3 {
@@ -84,6 +89,7 @@
   flex: 6;
   padding-left: 2rem;
   padding-right: 5rem;
+  order: 2;
 }
 
 /*Color Section*/
@@ -93,40 +99,50 @@
   align-items: center;
   padding-left: 5rem;
   padding-right: 2rem;
+  order: 2;
 }
 
 #colorSection .block2 {
   flex: 1;
+  order: 1;
 }
 
 #colorSection .block3 {
   flex: 7;
+  order: 0;
 }
 
 /*Typography Section*/
 #typographySection .block1 {
   flex: 5;
+  order: 0;
 }
 
 #typographySection .block2 {
   flex: 1;
+  order: 1;
 }
 
 #typographySection .block3 {
   flex: 6;
+  order: 2;
 }
 
 /*Potential Images Section*/
 .imageSection .block1 {
   flex: 1;
+  order: 0;
 }
 
 .imageSection .block2 {
   flex: 5;
+  order: 2;
 }
 
 .imageSection .block3 {
   flex: 5;
+  order: 1;
+  margin-bottom: 1rem;
 }
 
 /*Interactive Elements Section*/
@@ -145,10 +161,12 @@
 /*In-text Link Section*/
 #link .block1 {
   flex: 6;
+  order: 0;
 }
 
 #link .block2 {
   flex: 1;
+  order: 1;
 }
 
 #link .block3 {
@@ -159,6 +177,7 @@
   justify-content: center;
   padding-left: 2rem;
   padding-right: 5rem;
+  order: 2;
 }
 
 /*Navigation Button Section*/
@@ -170,23 +189,28 @@
   justify-content: center;
   padding-left: 5rem;
   padding-right: 2rem;
+  order: 2;
 }
 
 #navButton .block2 {
   flex: 1;
+  order: 1;
 }
 
 #navButton .block3 {
   flex: 6;
+  order: 0;
 }
 
 /*Submit/Reset Button Section*/
 #submitButton .block1 {
   flex: 6;
+  order: 0;
 }
 
 #submitButton .block2 {
   flex: 1;
+  order: 1;
 }
 
 #submitButton .block3 {
@@ -197,6 +221,7 @@
   justify-content: center;
   padding-left: 2rem;
   padding-right: 5rem;
+  order: 2;
 }
 
 /*Text input Section*/
@@ -207,23 +232,28 @@
   justify-content: center;
   padding-left: 5rem;
   padding-right: 2rem;
+  order: 2;
 }
 
 #textInput .block2 {
   flex: 1;
+  order: 1;
 }
 
 #textInput .block3 {
   flex: 6;
+  order: 0;
 }
 
 /*Radio Button Section*/
 #radioButton .block1 {
   flex: 7;
+  order: 0;
 }
 
 #radioButton .block2 {
   flex: 1;
+  order: 1;
 }
 
 #radioButton .block3 {
@@ -233,6 +263,7 @@
   justify-content: center;
   padding-left: 2rem;
   padding-right: 5rem;
+  order: 2;
 }
 
 /*Image as a Link Section*/
@@ -243,14 +274,17 @@
   justify-content: center;
   padding-left: 5rem;
   padding-right: 2rem;
+  order: 2;
 }
 
 #imageLink .block2 {
   flex: 1;
+  order: 1;
 }
 
 #imageLink .block3 {
   flex: 6;
+  order: 0;
 }
 
 /*text_elements Section*/
@@ -269,10 +303,12 @@
 /*Heading Section*/
 #heading .block1 {
   flex: 6;
+  order: 0;
 }
 
 #heading .block2 {
   flex: 1;
+  order: 1;
 }
 
 #heading .block3 {
@@ -282,6 +318,7 @@
   justify-content: center;
   padding-left: 2rem;
   padding-right: 5rem;
+  order: 2;
 }
 
 /*Paragraph Section*/
@@ -292,23 +329,28 @@
   justify-content: center;
   padding-left: 5rem;
   padding-right: 2rem;
+  order: 2;
 }
 
 #para .block2 {
   flex: 1;
+  order: 1;
 }
 
 #para .block3 {
   flex: 6;
+  order: 0;
 }
 
 /*Numbered List Section*/
 #numberedList .block1 {
   flex: 6;
+  order: 0;
 }
 
 #numberedList .block2 {
   flex: 1;
+  order: 1;
 }
 
 #numberedList .block3 {
@@ -318,6 +360,7 @@
   justify-content: center;
   padding-left: 2rem;
   padding-right: 5rem;
+  order: 2;
 }
 
 /*Menu bar section*/
@@ -328,23 +371,28 @@
   justify-content: center;
   padding-left: 5rem;
   padding-right: 2rem;
+  order: 2;
 }
 
 #navBar .block2 {
   flex: 1;
+  order: 1;
 }
 
 #navBar .block3 {
   flex: 4;
+  order: 0;
 }
 
 /*Product Listing Section*/
 #productList .block1 {
   flex: 4;
+  order: 0;
 }
 
 #productList .block2 {
   flex: 1;
+  order: 1;
 }
 
 #productList .block3 {
@@ -355,6 +403,7 @@
   justify-content: center;
   padding-left: 2rem;
   padding-right: 5rem;
+  order: 2;
 }
 
 /*Payment section*/
@@ -366,23 +415,28 @@
   justify-content: center;
   padding-left: 5rem;
   padding-right: 2rem;
+  order: 2;
 }
 
 #payment .block2 {
   flex: 1;
+  order: 1;
 }
 
 #payment .block3 {
   flex: 5;
+  order: 0;
 }
 
 /*Cart Section*/
 #cart .block1 {
   flex: 5;
+  order: 0;
 }
 
 #cart .block2 {
   flex: 1;
+  order: 1;
 }
 
 #cart .block3 {
@@ -393,6 +447,7 @@
   justify-content: center;
   padding-left: 2rem;
   padding-right: 5rem;
+  order: 2;
 }
 
 /*Product Page*/
