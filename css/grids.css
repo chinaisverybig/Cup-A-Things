@@ -664,6 +664,16 @@
     flex-direction: column;
     width: 100%;
   }
+
+  #checkoutLeft {
+    width: 100%;
+  }
+
+  #checkoutRight {
+    position: relative;
+    width: 100%;
+    box-shadow: none;
+  }
 }
 
 /*for computer*/
