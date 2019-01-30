@@ -599,6 +599,17 @@ footer {
   background-color: white;
 }
 
+#checkoutLeft {
+  width: 75%;
+}
+
+#checkoutRight {
+  position: fixed;
+  right: 0;
+  width: 25%;
+  box-shadow: -4px 0px 8px 0px #00000052;
+}
+
 /*
   COMBINED ELEMENTS -------------------
 */
