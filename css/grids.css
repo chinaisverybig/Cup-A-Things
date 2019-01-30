@@ -3,12 +3,6 @@
   margin-top: 1rem;
 }
 
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
 .block1 {
   width: 100%;
 }
@@ -31,6 +25,7 @@
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   flex-direction: row;
 }
@@ -613,10 +608,6 @@
     z-index: 100000;
   }
 
-  label {
-    padding-left: 3rem;
-  }
-
   #menu li a:hover {
     text-decoration: none;
     background-color: #ffffff;
@@ -630,6 +621,10 @@
 
   body {
     font-size: 14px;
+  }
+
+  h2 {
+    font-size: 3rem;
   }
 
   #intro .block1 {
@@ -889,7 +884,7 @@
 }
 
 /*for phone*/
-@media only screen and (max-width:38rem) {
+@media only screen and (max-width:45rem) {
 
   /*I referenced the hamburger menu from the internet it is in my citation (NOT MY CODE)*/
   #laptop {
