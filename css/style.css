@@ -72,7 +72,7 @@ p {
 }
 
 /*navigation menu*/
-nav {
+.menuBar {
   background-color: #ffffff;
   font-family: 'Lato', sans-serif;
   font-size: 1rem;
@@ -81,14 +81,14 @@ nav {
 }
 
 /*navigation menu*/
-nav a {
+.menuBar a {
   overflow: hidden;
   margin-top: 1.5rem;
   float: left;
 }
 
 /*navigation menu*/
-nav a:hover, nav a:focus {
+.menuBar a:hover, .menuBar a:focus {
   text-decoration: none;
 }
 
