@@ -263,13 +263,8 @@ footer {
 
 /*I referenced from w3school to style the radio button https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio*/
 /*image margins for title*/
-.product-noodle-img {
-  margin-top: -4rem;
-  margin-bottom: -4rem;
-}
-
 .product-img-background {
-  background-color: #f8e38f;
+  background-color: #f8f7f0;
 }
 
 .checkout-img-background {
@@ -316,15 +311,6 @@ footer {
 .right-side {
   float: right;
   text-align: right;
-}
-
-.right-margin {
-  margin-right: 5rem;
-}
-
-.left-margin {
-  /*adds a margin on the left*/
-  margin-left: 5rem;
 }
 
 /*Set text to white or black*/

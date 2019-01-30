@@ -418,14 +418,18 @@
 
 .product_listing .block3 {
   flex: 3;
+  margin-left: 1rem;
 }
 
 .product_listing .block4 {
   flex: 3;
+  margin-left: 1rem;
 }
 
 .product_listing .block5 {
   flex: 3;
+  margin-left: 1rem;
+  margin-right: 5rem;
 }
 
 /*Checkout Cart Page*/
@@ -594,14 +598,6 @@
     text-decoration: none;
     text-align: center;
     width: 100%;
-  }
-
-  #typeface {
-    height: 35rem;
-  }
-
-  #product-section {
-    height: 50rem;
   }
 
   #menuToggle input:checked~ul {
@@ -796,11 +792,13 @@
   }
 
   .product_listing .block1 {
-    flex: 1;
+    flex: 0;
+    display: none;
   }
 
   .product_listing .block2 {
-    flex: 1;
+    flex: 0;
+    display: none;
   }
 
   .product_listing .block3 {
@@ -864,30 +862,29 @@
     flex: 1;
   }
 
-  /*Payment Page*/
-  #paymentIntro .block1 {
-    flex: 2;
-  }
-
-  #paymentIntro .block2 {
-    flex: 8;
-  }
-
-  #paymentIntro .block3 {
-    flex: 2;
-  }
-
-  #paymentInfo .block1 {
+  /*Product Page*/
+  .product_listing .block1 {
     flex: 1;
   }
 
-  #paymentInfo .block2 {
+  .product_listing .block2 {
     flex: 1;
   }
 
-  #paymentInfo .block3 {
-    flex: 10;
-    padding: 2rem 5rem 2rem 2rem;
+  .product_listing .block3 {
+    flex: 3;
+    margin-left: 2rem;
+  }
+
+  .product_listing .block4 {
+    flex: 3;
+    margin-left: 1rem;
+  }
+
+  .product_listing .block5 {
+    flex: 3;
+    margin-left: 1rem;
+    margin-right: 2rem;
   }
 }
 
@@ -984,14 +981,6 @@
     text-decoration: none;
     text-align: center;
     width: 100%;
-  }
-
-  #typeface {
-    height: 35rem;
-  }
-
-  #product-section {
-    height: 50rem;
   }
 
   #menuToggle input:checked~ul {
@@ -1440,6 +1429,39 @@
     justify-content: center;
     padding: 3rem;
     order: 2;
+  }
+
+  /*Product Page*/
+  .product_listing .block1 {
+    flex: 0;
+    display: none;
+    order: 0;
+    margin: 0;
+  }
+
+  .product_listing .block2 {
+    flex: 0;
+    display: none;
+    order: 1;
+    margin: 0;
+  }
+
+  .product_listing .block3 {
+    flex: 3;
+    order: 2;
+    margin: 0;
+  }
+
+  .product_listing .block4 {
+    flex: 3;
+    order: 3;
+    margin: 0;
+  }
+
+  .product_listing .block5 {
+    flex: 3;
+    order: 4;
+    margin: 0;
   }
 }
 }
