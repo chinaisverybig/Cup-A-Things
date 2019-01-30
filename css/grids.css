@@ -505,8 +505,135 @@
 
 /*for tablet*/
 @media only screen and (max-width:60rem) {
-  #phone {
+  #laptop {
     display: none;
+  }
+
+  #menuToggle {
+    display: block;
+    position: relative;
+    top: 0.25rem;
+    left: 1rem;
+    z-index: 1000;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+
+  #menuToggle input {
+    display: block;
+    width: 2rem;
+    height: 1.6rem;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    /* hide this */
+    z-index: 1002;
+    /* and place it over the hamburger */
+    -webkit-touch-callout: none;
+  }
+
+  #menuToggle span {
+    display: block;
+    width: 1.65rem;
+    height: 0.2rem;
+    margin-bottom: 0.25rem;
+    position: relative;
+    background: #333333;
+    border-radius: 0.15rem;
+    z-index: 1001;
+    transform-origin: 0.2rem 0;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0),
+      opacity 0.55s ease;
+  }
+
+  #menuToggle span:first-child {
+    transform-origin: 0% 0%;
+  }
+
+  #menuToggle span:nth-last-child(2) {
+    transform-origin: 0% 100%;
+  }
+
+  #menuToggle input:checked~span {
+    opacity: 1;
+    transform: rotate(45deg) translate(-2px, -1px);
+    background: #FFFFFF;
+  }
+
+  #menuToggle input:checked~span:nth-last-child(3) {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+
+  #menuToggle input:checked~span:nth-last-child(2) {
+    opacity: 1;
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+
+  #menu {
+    overflow-y: scroll;
+    position: absolute;
+    width: 100%;
+    margin: -3em 0 0 -1em;
+    padding: 3em 0 2em 0;
+    background: #333333;
+    list-style-type: none;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+  }
+
+  #menu li a {
+    padding: 0.5em 0;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  #typeface {
+    height: 35rem;
+  }
+
+  #product-section {
+    height: 50rem;
+  }
+
+  #menuToggle input:checked~ul {
+    transform: scale(1.0, 1.0);
+    opacity: 1;
+  }
+
+  #phone {
+    width: 100%;
+    position: fixed;
+    display: block;
+    padding: 0.8rem 0;
+    z-index: 100000;
+  }
+
+  label {
+    padding-left: 3rem;
+  }
+
+  #menu li a:hover {
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #f16668;
+  }
+
+  a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  body {
+    font-size: 14px;
   }
 
   #intro .block1 {
@@ -765,7 +892,7 @@
 }
 
 /*for phone*/
-@media only screen and (max-width:32rem) {
+@media only screen and (max-width:38rem) {
 
   /*I referenced the hamburger menu from the internet it is in my citation (NOT MY CODE)*/
   #laptop {
@@ -896,7 +1023,7 @@
   }
 
   body {
-    font-size: 14px;
+    font-size: 10px;
   }
 
   .text-box[type=text] {
