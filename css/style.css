@@ -191,6 +191,34 @@ footer {
   display: inline-block;
 }
 
+/* this is the styling for the remove buttons in cart */
+.remove_button {
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: white;
+  border: 0.05rem solid #333333;
+  border-radius: 0.3rem;
+  color: #333333;
+  padding: 0.3rem 1.4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.6em;
+  transition: background-color 0.5s ease;
+}
+
+.remove_button:hover, .remove_button:focus {
+  background-color: lightgrey;
+  padding: 0.3rem 1.4rem;
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 /*This is part of the styling for the radio button*/
 .radio-label {
   display: block;
@@ -272,7 +300,8 @@ footer {
 }
 
 .checkout-img-noodle {
-  margin-left: 5rem;
+  margin-top: 3rem;
+  margin-left: 2.5rem;
   padding-bottom: 1rem;
   padding-left: 1rem;
 }
@@ -291,6 +320,16 @@ footer {
   width: 100%;
   position: relative;
   text-align: left;
+}
+
+.payment-panel {
+  padding-top: 4rem;
+  position: relative;
+  text-align: center;
+}
+
+.payment-title {
+  font-size: 3vw !important;
 }
 
 /*placing the title at the center of the container*/
@@ -565,6 +604,17 @@ footer {
 .white {
   /*Set color of container to white*/
   background-color: white;
+}
+
+#checkoutLeft {
+  width: 75%;
+}
+
+#checkoutRight {
+  position: fixed;
+  right: 0;
+  width: 25%;
+  box-shadow: -4px 0px 8px 0px #00000052;
 }
 
 /*
