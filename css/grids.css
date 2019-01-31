@@ -1458,5 +1458,16 @@
     order: 4;
     margin: 0;
   }
+
+  #checkoutLeft {
+    width: 100%;
+  }
+
+  #checkoutRight {
+    position: relative;
+    width: 100%;
+    box-shadow: none;
+  }
+}
 }
 }
