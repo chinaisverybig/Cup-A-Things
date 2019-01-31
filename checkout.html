@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
   <title>Cup A'Things</title>
+  <script src="jquery.js"></script>
 
   <link href="css/style.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
@@ -14,7 +15,7 @@
 </head>
 
 <body>
-  <nav id="phone">
+  <div class="active menuBar" id="phone">
     <div id="menuToggle">
       <input type="checkbox" />
       <span></span>
@@ -29,16 +30,16 @@
         <li><a href="index.html#citations">Citations</a></li>
       </ul>
     </div>
-  </nav>
+  </div>
 
-  <nav class="active" id="laptop">
+  <div class="active menuBar" id="laptop">
     <a class="button-nav" href="index.html#interactive_elements">Interactive Elements</a>
     <a class="button-nav" href="index.html#text_elements">Text Elements</a>
     <a class="button-nav" href="index.html#combined_elements">Combined Elements</a>
     <a class="button-nav" href="product_listing.html">Products</a>
     <a class="button-nav" href="checkout.html">Checkout</a>
     <a class="button-nav" href="index.html#citations">Citations</a>
-  </nav>
+  </div>
   <div id="checkoutRight">
     <!-- Payment Header -->
     <div class="payment-panel">
@@ -95,7 +96,7 @@
     <div class="row white">
       <div class="flex-container" id="checkoutSummary">
         <div class="block1">
-          <div class="spacer" style="height:2rem"></div>
+          <div class="spacer"></div>
         </div>
         <div class="block2 order-summary right-side">
           <h4> order summary</h4>
@@ -116,14 +117,14 @@
       <div class="title-screen">
         <div class="flex-container" id="paymentIntro">
           <div class="block1">
-            <div class="spacer" style="height:2rem"></div>
+            <div class="spacer"></div>
           </div>
           <div class="block2">
             <img src="img/steakNoodle.png" alt="steak instant noodle" class="checkout-noodle-img">
           </div>
           <!-- <h5 class="title-screen subtitle">the best type of men is ramen</h5> -->
           <div class="block3">
-            <div class="spacer" style="height:2rem"></div>
+            <div class="spacer"></div>
           </div>
           <h2 class="title-screen title">Checkout</h2>
         </div>

@@ -634,7 +634,7 @@ footer {
 }
 
 .remove_button:hover, .remove_button:focus {
-  background-color: lightgrey;
+  background-color: #dddddd;
   padding: 0.3rem 1.4rem;
   border: none;
   border-radius: 0.3rem;
@@ -649,6 +649,7 @@ footer {
 }
 
 #checkoutRight {
+  top: 0;
   position: fixed;
   right: 0;
   width: 25%;
