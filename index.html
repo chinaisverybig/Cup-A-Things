@@ -8,6 +8,7 @@
 
   <link href="css/style.css" rel="stylesheet">
   <link href="css/grids.css" rel="stylesheet">
+  <script src="jquery.js"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
@@ -15,7 +16,7 @@
 </head>
 
 <body>
-  <nav id="phone">
+  <div class="active menuBar" id="phone">
     <div id="menuToggle">
       <input type="checkbox" />
       <span></span>
@@ -30,29 +31,29 @@
         <li><a href="#citations">Citations</a></li>
       </ul>
     </div>
-  </nav>
-  <nav class="active" id="laptop">
+  </div>
+  <div class="active menuBar" id="laptop">
     <a class="button-nav" href="#interactive_elements">Interactive Elements</a>
     <a class="button-nav" href="#text_elements">Text Elements</a>
     <a class="button-nav" href="#combined_elements">Combined Elements</a>
     <a class="button-nav" href="product_listing.html">Products</a>
     <a class="button-nav" href="checkout.html">Checkout</a>
     <a class="button-nav" href="#citations">Citations</a>
-  </nav>
+  </div>
   <header>
     <!-- <div class="blue"> -->
     <div class="blue">
       <div class="title-screen">
         <div class="flex-container" id="intro">
           <div class="block1">
-            <div class="spacer" style="height:2rem"></div>
+            <div class="spacer"></div>
           </div>
           <div class="block2">
             <img src="img/noodleBlock.png" alt="Uncooked instant noodle" class="noodle-img" id="title-img">
           </div>
           <!-- <h5 class="title-screen subtitle">the best type of men is ramen</h5> -->
           <div class="block3">
-            <div class="spacer" style="height:2rem"></div>
+            <div class="spacer"></div>
           </div>
           <h2 class="title-screen title">Cup A' Things</h2>
         </div>
@@ -202,14 +203,14 @@
       <div class="title-screen title-section">
         <div class="flex-container" id="interactiveElementsSection">
           <div class="block1">
-            <div class="spacer" style="height:2rem"></div>
+            <div class="spacer"></div>
           </div>
           <div class="block2">
             <img src="img/holdingNoodle.png" alt="a bowl of cooked instant noodle" class="cooked-noodle-img">
           </div>
           <!-- <h5 class="title-screen subtitle">the best type of men is ramen</h5> -->
           <div class="block3">
-            <div class="spacer" style="height:2rem"></div>
+            <div class="spacer"></div>
           </div>
           <h2 class="title-screen title">Interactive Elements</h2>
         </div>
@@ -298,7 +299,7 @@
         <div class="block1">
           <h4 class="middle-text">rendered element</h4>
           <label for="form-input" class="form-label"> Ramen Brand </label>
-          <input type="text" id="form-input" class="text-box left-side" placeholder="i.e. Indomie, Shin Ramyun, etc.">
+          <input type="text" id="form-input" class="text-box" placeholder="i.e. Indomie, Shin Ramyun, etc.">
         </div>
         <div class="block2">
           <div class="pink-line fat-line right-line"></div>
@@ -541,12 +542,12 @@
       <div class="flex-container" id="navBar">
         <div class="block1">
           <h4 class="middle-text">rendered element</h4>
-          <nav>
+          <div class="menuBar">
             <a class="button-nav" href="#">Home</a>
             <a class="button-nav" href="#">Popular Noodles</a>
             <a class="button-nav" href="#">About Us</a>
             <a class="button-nav" href="#">Contact Us</a>
-          </nav>
+          </div>
         </div>
         <div class="block2">
           <div class="rice-white-line fat-line right-line"></div>
