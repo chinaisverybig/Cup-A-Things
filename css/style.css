@@ -191,6 +191,33 @@ footer {
   display: inline-block;
 }
 
+.remove_button {
+  margin-bottom: 1rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  background-color: white;
+  border: 0.05rem solid #333333;
+  border-radius: 0.3rem;
+  color: #333333;
+  padding: 0.3rem 1.4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.6em;
+  transition: background-color 0.5s ease;
+}
+
+.remove_button:hover, .remove_button:focus {
+  background-color: lightgrey;
+  padding: 0.3rem 1.4rem;
+  border: none;
+  border-radius: 0.3rem;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
 /*This is part of the styling for the radio button*/
 .radio-label {
   display: block;
